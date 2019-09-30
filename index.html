@@ -1,0 +1,59 @@
+<html>
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <link rel="shortcut icon" type="image/png" href="256x256.png" />
+  <title>神姫PROJECT R</title>
+  <link href="front/css/background.css" rel="stylesheet" type="text/css" />
+  <style>
+    * { margin: 0; padding: 0; border: 0 none}
+    #shield { position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none }
+  </style>
+</head>
+
+<body>
+  <link href="front/css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="front/css/common.css" rel="stylesheet" type="text/css">
+  <link href="front/css/jquery.simpleTicker.css" rel="stylesheet" type="text/css">
+  <script src="front/cocos2d-proj/vendor/jquery/dist/jquery.min.js"></script>
+
+  <div class="test-screen center-block">
+    <div id="game-outer">
+      <div id="iframeBody">
+        <iframe id="game" class="PC" game-src="front/cocos2d-proj/components-pc/game/app.html#!epi/epi_001" width="100%" height="100%"></iframe>
+      </div>
+      <div id="shield" style="margin: 10px; height: 640px; width: 960px; display: none;">
+        <img id="shield_img" src="front/images/connecting.png"
+          style="position: absolute; bottom: 0px; right: 0px; user-select: none;">
+      </div>
+    </div>
+  </div>
+
+  <script src="front/cocos2d-proj/vendor/boombox.js/boombox.min.js"></script>
+  <script src="front/cocos2d-proj/vendor/WMAudioUtil.js/lib/WMAudioUtil.js"></script>
+  <script src="front/cocos2d-proj/vendor/q/q.js"></script>
+
+  <script>
+    var frontBaseUrl = "front";
+  </script>
+
+  <!-- <script src="front/cocos2d-proj/loadScripts.js"></script> -->
+  <script type="text/javascript">
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.addEventListener('controllerchange', () => window.location.reload());
+      navigator.serviceWorker.register('sw.js')
+        .then((registration) => {
+          console.log(`Service Worker registration complete, scope: '${registration.scope}'`);
+          if (registration.active)
+            $.ajax({url: "front/cocos2d-proj/loadScripts.js", dataType: "script", cache: true});
+          else
+            location.reload();
+        })
+        .catch((error) =>
+          console.log(`Service Worker registration failed with error: '${error}'`));
+    }
+    else alert("Please use modern browser and update to the latest version");
+  </script>
+</body>
+
+</html>

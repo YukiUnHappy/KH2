@@ -1,0 +1,68 @@
+
+/*背景画像*/
+/*.fullback {
+  background: url(../images/background/bg.jpg) no-repeat top center;
+  width: 100%;
+  background-size:contain;
+}*/
+
+/*背景画像*/
+body {
+  background: url(../images/background/bg_default.jpg) no-repeat top center;
+  width: 100%;
+  background-size:100%;
+}
+
+/*左右画像の親*/
+.sideback {
+  width: 100%;
+  height : 100%;
+  position: absolute;
+  z-index:0;
+}
+
+/*影画像*/
+#shadowimg {
+  position: absolute;
+  left : 0%;
+  right: 0%;
+  top : -1%;
+  z-index:0;
+  margin: auto;
+  visibility: visible;
+  opacity:1;
+}
+
+/*左背景画像*/
+#leftimg {
+  position: absolute;
+  right: 50%;
+  z-index:0;
+  visibility: visible;
+  opacity:1;
+}
+
+/*右背景画像*/
+#rightimg {
+  position: absolute;
+  left: 50%;
+  z-index:0;
+  visibility: visible;
+  opacity:1;
+}
+
+/*OFFボタン*/
+#btnOff {
+  position: absolute;
+  left: 0%;
+  z-index:1;
+  visibility: visible;
+}
+
+/*ONボタン*/
+#btnOn {
+  position: absolute;
+  left: 0%;
+  z-index:1;
+  visibility: hidden;
+}

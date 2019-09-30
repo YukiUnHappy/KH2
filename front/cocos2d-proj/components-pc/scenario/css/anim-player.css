@@ -1,0 +1,198 @@
+@font-face {
+	font-family: "GameFont";
+	src: url('../../../components/core/css/gamefont.otf') format('opentype');
+}
+* {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	-ms-user-select: none;
+}
+body {
+	width: 640px;
+	overflow: hidden;
+	background-color: black;
+}
+#main-content {
+	position: relative;
+	width: 960px;
+	height: 640px;
+	overflow: hidden;
+
+	background: url(../images/harem/side_base.png) 0 0 no-repeat;
+	transform: translateX(640px) rotate(90deg);
+	transform-origin: 0 0;
+}
+.anim-player {
+	position: relative;
+	transform: translate(60px,640px) rotate(-90deg);
+	transform-origin: 0 0;
+}
+.anim-player dl {
+	position: absolute;
+	width: 900px;
+	height: 167px;
+	top: 0;
+	left: 0;
+	transform: translate(140px, 0px) rotate(90deg);
+	transform-origin: 0 0;
+}
+.anim-player .speaker {
+	position: absolute;
+	z-index: 2;
+	width: 250px;
+	height: 32px;
+
+	font-family: "GameFont";
+	font-size: 20px;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+	line-height: 32px;
+	text-align: center;
+	text-shadow: 1px 1px 0px #000000;
+}
+.anim-player .words {
+	position: absolute;
+	width: 852px;
+	height: 84px;
+	z-index: 1;
+	padding: 50px 25px 20px 25px;
+
+	font-family: "GameFont";
+	font-size: 26px;
+	font-weight: bold;
+	color: rgb(51, 51, 51);
+	line-height: 1.538;
+	text-align: left;
+
+	/* text-shadow:-1px -1px 1px #ffffff,1px -1px 1px #ffffff,-1px 1px 1px #ffffff,1px 1px 1px #ffffff; */
+	background: url(../images/harem/base_talk_window.png) no-repeat;
+}
+
+#movie-player {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+#toggle-auto {
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	width: 61px;
+	height: 65px;
+	position: absolute;
+	z-index: 10;
+	outline: none;
+	transform: translate(0px, -60px) rotate(90deg);
+}
+#toggle-zoom,
+#toggle-words,
+#toggle-sound {
+	-webkit-appearance: none;
+	-ms-appearance: none;
+	appearance: none;
+	width: 62px;
+	height: 66px;
+	position: absolute;
+	z-index: 10;
+	outline: none;
+	transform: translate(0px, -60px) rotate(90deg);
+}
+#toggle-auto {
+	background: red;
+	top: 0px;
+	left: 255px;
+	background: url(../images/harem/btn_auto_off.png);
+}
+#toggle-auto:checked {
+	background: url(../images/harem/btn_auto_on.png);
+}
+#toggle-zoom {
+	background: red;
+	top: 0px;
+	left: 415px;
+	background: url(../images/harem/btn_zoom_0.png);
+}
+#toggle-zoom:checked {
+	background: url(../images/harem/btn_zoom_1.png);
+}
+#toggle-words {
+	background: green;
+	top: 0px;
+	left: 495px;
+	background: url(../images/harem/btn_text_0.png);
+}
+#toggle-words:checked {
+	background: url(../images/harem/btn_text_1.png);
+}
+#toggle-sound {
+	background: yellow;
+	top: 0px;
+	left: 575px;
+	background: url(../images/harem/btn_sound_1_0.png);
+}
+#toggle-sound:checked {
+	background: url(../images/harem/btn_sound_1_1.png);
+}
+
+#skip-btn {
+	width: 62px;
+	height: 66px;
+	position: absolute;
+	z-index: 10;
+	transform: translate(0px, -60px) rotate(90deg);
+	background: url(../images/harem/btn_skip_0.png);
+	top: 0px;
+	left: 335px;
+	border: 0px none;
+	outline: none;
+}
+
+#toggle-auto + label,
+#toggle-zoom + label,
+#toggle-words + label,
+#toggle-sound + label,
+#skip-btn > label{
+	display: none;
+}
+#next-words {
+	position: absolute;
+	top: 0;
+	left: 0;
+	display: none;
+	width: 56px;
+	height: 56px;
+	transform: translate(8px, 840px) rotate(90deg);
+	background: url(../images/harem/arrow.png);
+	-webkit-animation:blink 0.4s ease-in infinite alternate;
+	-moz-animation:blink 0.4s ease-in infinite alternate;
+	animation:blink 0.4s ease-in infinite alternate;
+}
+#next-words.on {
+	display: block;
+}
+@-webkit-keyframes blink{
+	0% {margin-left: -0px ;}
+	100% {margin-left: -15px;}
+}
+@-moz-keyframes blink{
+	0% {margin-left: -0px ;}
+	100% {margin-left: -15px;}
+
+}
+@keyframes blink{
+	0% {margin-left: -0px ;}
+	100% {margin-left: -15px;}
+}
+#shield {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	width: 100%;
+	height: 100%;
+}

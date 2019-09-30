@@ -1,0 +1,655 @@
+{
+  "data": [
+    {
+      "quest_id": 10,
+      "title": "積年のわだかまりをこえて",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "10_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 11,
+            "name": "テュール"
+          },
+          {
+            "heroine_type": "summon",
+            "heroine_id": 5005,
+            "name": "フェンリル"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "テュール",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401000",
+            "chapter_id": "101_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401001",
+            "chapter_id": "102_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401002",
+            "chapter_id": "103_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 10,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "過去の出来事から、なかなか歩み寄ることが\nできないテュールとフェンリル。\nテュールはその状況を心苦しく思い……。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 9,
+      "title": "美は1日にして成らず",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "9_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 7052,
+            "name": "カリス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 7028,
+            "name": "コノハナサクヤ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "カリス",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400900",
+            "chapter_id": "91_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400901",
+            "chapter_id": "92_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400902",
+            "chapter_id": "93_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 9,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "女性特有の悩みを持つアリサを見て、\nコノハナサクヤは彼女なりにサポートを\nしようと行動に移るが……。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 8,
+      "title": "嘘つきで意地っ張りな親友",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "8_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5077,
+            "name": "ベリト"
+          },
+          {
+            "heroine_type": "summon",
+            "heroine_id": 6063,
+            "name": "ストラス"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "ベリト",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400800",
+            "chapter_id": "81_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400801",
+            "chapter_id": "82_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400802",
+            "chapter_id": "83_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 8,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ツンデレな態度を改められないベリト。\nストラスというわがまま幻獣の話を聞き\n似た者同士、友達になりたいと考える。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 7,
+      "title": "子供っぽいのも悪くない",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "7_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5045,
+            "name": "ヴィシュヌ"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 7084,
+            "name": "ルミナ"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5036,
+            "name": "サラスヴァティー"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "ヴィシュヌ",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400700",
+            "chapter_id": "71_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400701",
+            "chapter_id": "72_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400702",
+            "chapter_id": "73_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 7,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "子供姿の自分に嫌気がさしたヴィシュヌ。\nルミナにまで赤ちゃん扱いされ成長したいと\n強く願うようになるのだが――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 6,
+      "title": "地獄の沙汰は因果応報",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "6_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6110,
+            "name": "[極楽風靡]閻魔"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5055,
+            "name": "シャマシュ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "[極楽風靡]閻魔",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400600",
+            "chapter_id": "61_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400601",
+            "chapter_id": "62_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400602",
+            "chapter_id": "63_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 6,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "徹夜仕事のせいで爆発寸前の閻魔の元に、\n教えを請いたいと言うシャマシュが訪れる。\nそれを口実に部屋を飛び出した閻魔は――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 5,
+      "title": "ドMの道も一歩から",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "5_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 7044,
+            "name": "ディース"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6069,
+            "name": "フォルセティ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "ディース",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400500",
+            "chapter_id": "51_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400501",
+            "chapter_id": "52_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400502",
+            "chapter_id": "53_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 5,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "オーディンに憧れるディースは\nフォルセティにとある相談を持ちかける。\nディアボロスも呆れるその内容とは――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 4,
+      "title": "かつてのふたり",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "4_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6105,
+            "name": "[改悛せし炎威]ネルガル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6072,
+            "name": "エレシュキガル"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "[改悛せし炎威]ネルガル",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400400",
+            "chapter_id": "10_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400401",
+            "chapter_id": "11_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400402",
+            "chapter_id": "12_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 4,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "かつて死の太陽と恐れられていたネルガル。\nそんな彼女にも、親友と花畑で語らうような\n心穏やかな日々があった――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 3,
+      "title": "王になるための挑戦状！？",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "3_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5043,
+            "name": "マルドゥーク"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6050,
+            "name": "キングー"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "マルドゥーク",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400300",
+            "chapter_id": "7_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400301",
+            "chapter_id": "8_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400302",
+            "chapter_id": "9_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 3,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ラグナロク以前の争いが原因で、\nマルドゥークをライバル視するキングー。\n彼女は王の座を掛け決闘を申し込むが――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 2,
+      "title": "凸凹姉妹の確かな絆",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "2_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5061,
+            "name": "フレイ"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6017,
+            "name": "フレイヤ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "フレイ",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400200",
+            "chapter_id": "4_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400201",
+            "chapter_id": "5_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400202",
+            "chapter_id": "6_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 2,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ラグナロク以来離れ離れだった\nフレイとフレイヤの姉妹が再会を果たす。\nしかしフレイヤの男好きは相変わらずで――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 1,
+      "title": "お料理バトルは命がけ",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "1_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 7021,
+            "name": "アナト"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6081,
+            "name": "アッタル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 38,
+            "name": "バアル"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "アナト",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "400100",
+            "chapter_id": "1_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400101",
+            "chapter_id": "2_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "400102",
+            "chapter_id": "3_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 1,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "バアルを巡りいがみ合うアナトとアッタル。\n今にも派手なケンカをしそうな二人に、\n困り果てたバアルは一つの提案をした。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    }
+  ],
+  "max_record_count": 10
+}

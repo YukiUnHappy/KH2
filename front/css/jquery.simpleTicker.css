@@ -1,0 +1,29 @@
+.ticker {
+  margin: 0 auto;
+  /* padding: 10px; */
+  /* width: 600px; */
+  text-align: center;
+  /* border: #ccc 1px solid; */
+  position: relative;
+  overflow: hidden;
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.ticker ul {
+  top: 230px;
+  width: 100%;
+  height: 300px;
+  display: table;
+  position: relative;
+  font-size: large;
+  font-family: '游ゴシック体', 'Yu Gothic', 'YuGothic', 'ヒラギノ角ゴシック Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', 'Osaka', 'ＭＳ Ｐゴシック', 'MS PGothic', 'sans-serif';
+}
+
+.ticker ul li {
+  width: 100%;
+  display: none;
+  vertical-align: middle;
+}
+

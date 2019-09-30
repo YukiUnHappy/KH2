@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+		<title>app</title>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="full-screen" content="yes"/>
+    <meta name="screen-orientation" content="portrait"/>
+    <meta name="x5-fullscreen" content="true"/>
+    <meta name="360-fullscreen" content="true"/>
+    <link rel="prefetch" as="font" href="../../components/core/css/gamefont.otf">
+    <link rel="stylesheet" type="text/css" href="../../components/core/css/app.css?version=18">
+    <link rel="stylesheet" type="text/css" href="../../components/core/css/scenario.css">
+</head>
+<body style="padding:0; margin: 0; background: #000;">
+<iframe id="scenarioFrame"></iframe>
+<canvas id="gameCanvas" version="16" ></canvas>
+<div id="endTouchField"></div>
+<script src="../core/src/config/KHVersionConfig.js?version=16" defer></script>
+<script src="../../vendor/js-cookie/src/js.cookie.js" defer></script>
+<script src="../../patch/patchWebGLhitSnag.js" defer></script>
+<script src="../../vendor/cocos2d-js-v3.13.js" defer></script>
+<script src="../../patch/patchCCLoader.js?version=17" defer></script>
+<script src="../../patch/patchCCLoadingImage.js?version=17" defer></script>
+<script src="../../patch/patchMainLoop.js?version=17" defer></script>
+<script src="main.js?version=17" defer></script>
+<script>
+  window.onblur = function() {
+    var boombox = document.getElementById("scenarioFrame").contentWindow.boombox;
+    if (boombox) {
+      try{
+        // boomboxが見つからないなど、原因不明のエラーが起きる場合がある。
+        // 誰かがサウンドデバイスのハンドルを握りっぱなしで取得できないとかか？
+        // KAMIHIME-10885で調査
+        boombox.pause();
+      } catch (err) { console.warn(err); }
+    }
+  };
+</script>
+</body>
+</html>

@@ -1,0 +1,50 @@
+*{ margin: 0; padding: 0 }
+ul.pulldownMenuBase{
+  overflow: auto;
+  max-height: 400px;
+  position: absolute;
+  cursor: default;
+}
+select.pulldownMenuBase{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: transparent;
+  border: 0 none;
+  outline: none;
+  position: absolute;
+  height: 40px;
+  font-size: 40px;
+  opacity: 0.0;
+}
+.pulldownMenuChoice{
+  background: url("../../core/images/pulldown_sprite.jpg") repeat-x;
+  height: 40px;
+  line-height: 40px;
+  color: rgb(54, 33, 0);
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.6);
+  font-weight: bold;
+  font-size: 16px;
+}
+.pulldownMenuChoice:hover {
+  background-position: 0 -40px;
+}
+.pulldownShield{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0);
+  overflow: hidden;
+}
+
+ul.pulldownMenuBase::-webkit-scrollbar {
+  -webkit-appearance: none;
+  background-color:whitesmoke;
+  width: 1em;
+  min-width: 14px;
+}
+ul.pulldownMenuBase::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background-color: rgba(0,0,0,.3);
+  box-shadow: 0 0 1px rgba(255,255,255,.5);
+}

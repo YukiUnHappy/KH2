@@ -1,0 +1,274 @@
+@font-face {
+  font-family: "GameFont";
+
+  local("Hiragino Kaku Gothic Pro");
+  local("Meiryo");
+  local("sans-serif");
+}
+
+body, canvas, div {
+  font-family: "GameFont", sans-serif;
+}
+
+.text_common {
+  font-size: 22px;
+  color: rgb(54, 33, 0);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.6);
+}
+
+.text_common_left {
+  font-size: 22px;
+  color: rgb(54, 33, 0);
+  line-height: 1.2;
+  text-align: left;
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.6);
+}
+
+.text_common_shop {
+  font-size: 19px;
+  color: rgb(54, 33, 0);
+  line-height: 1.2;
+  text-align: center;
+  text-shadow: 0px 2px 0px rgba(255, 255, 255, 0.6);
+}
+
+.text_com_need_ap_bp1 {
+  font-size: 22px;
+  line-height: 1.1;
+  vertical-align:middle;
+  padding-top:1em;
+}
+
+.text_com_need_ap_bp2 {
+  font-size: 22px;
+  line-height: 1.1;
+  vertical-align:middle;
+  padding-top:1em;
+}
+
+.white {
+  color: rgb(255, 255, 255);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+}
+
+.gray {
+  color: rgb(179, 179, 179);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+}
+
+.yellow {
+  color: rgb(255, 221, 51);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+}
+
+.red {
+  color: rgb(214, 65, 65);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+  -webkit-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+  -ms-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+}
+
+.orange {
+  color: rgb(255, 170, 0);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+  -webkit-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+  -ms-transform: matrix( 0.99775253968806,0,0,0.99870830660447,0,0);
+}
+
+
+.blue {
+  font-size: 22px;
+  color: rgb(0, 191, 255);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+}
+
+.red_shadow {
+  font-size: 22px;
+  color: rgb(217, 0, 0);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.blue_shadow {
+  font-size: 22px;
+  color: rgb(51, 153, 255);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.green_shadow {
+  font-size: 22px;
+  color: rgb(0, 217, 72);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.yellow_shadow {
+  font-size: 22px;
+  color: rgb(255, 241, 51);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.light_shadow {
+  font-size: 22px;
+  color: rgb(255, 244, 191);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.dark_shadow {
+  font-size: 22px;
+  color: rgb(183, 38, 255);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.white_shadow {
+  font-size: 25px;
+  color: rgb(229, 244, 244);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.white_shadow_mini {
+  font-size: 18px;
+  color: rgb(229, 244, 244);
+  text-shadow:-1px -1px 1px #362100,1px -1px 1px #362100,-1px 1px 1px #362100,1px 1px 1px #362100;
+}
+
+.pink_shadow {
+  font-size: 25px;
+  color: rgb(255, 198, 198);
+  text-shadow:-1px -1px 1px #452927,1px -1px 1px #452927,-1px 1px 1px #452927,1px 1px 1px #452927;
+}
+
+.pink_shadow_mini {
+  font-size: 18px;
+  color: rgb(255, 198, 198);
+  text-shadow:-1px -1px 1px #452927,1px -1px 1px #452927,-1px 1px 1px #452927,1px 1px 1px #452927;
+}
+
+.cyan_shadow {
+  font-size: 25px;
+  color: rgb(190, 250, 255);
+  text-shadow:-1px -1px 1px #093545,1px -1px 1px #093545,-1px 1px 1px #093545,1px 1px 1px #093545;
+}
+
+.cyan_shadow_mini {
+  font-size: 18px;
+  color: rgb(190, 250, 255);
+  text-shadow:-1px -1px 1px #093545,1px -1px 1px #093545,-1px 1px 1px #093545,1px 1px 1px #093545;
+}
+.darkkhaki_mini {
+  font-size: 18px;
+  color: rgb(185, 159, 119);
+  text-shadow: 0.707px 0.707px 0px rgba(0, 0, 0, 0.004);
+  -moz-transform: matrix( 0.99987587108724,0,0,1.00191101635717,0,0);
+  -webkit-transform: matrix( 0.99987587108724,0,0,1.00191101635717,0,0);
+  -ms-transform: matrix( 0.99987587108724,0,0,1.00191101635717,0,0);
+}
+
+.mini {
+    font-size: 18px;
+}
+
+
+.numbox_mini,
+.numbox,
+.numbox_middle_mini,
+.numbox_middle,
+.numbox_middle_long,
+.numbox_long,
+.numbox_slong
+{
+    background: #ff0000; /*nbで囲まないと赤くなる*/
+    text-align: center;
+    font-size: 22px;
+    line-height: 100%;
+    padding: 2px 10px;
+    display: inline-block;
+}
+
+table.nb {
+  height: 21px;
+  line-height: 0;
+  text-align: center;
+  margin: 2px auto 4px;
+  padding: 4px 0;
+  display: inline-block;
+}
+
+table.nb tr {
+  display: block;
+  margin: 0;
+  background: #4d4337;
+  border: 1px;
+  border-radius: 10px;
+  line-height: 1em;
+  height: 21px;
+  vartical-align: top;
+  padding-top: 3px;
+  padding-bottom: 6px;
+}
+table.nb tr.pc {
+  padding-top: 7px;
+  padding-bottom: 4px;
+}
+table.nb tr.sp {
+  padding-top: 1px;
+  padding-bottom: 8px;
+}
+table.nb td[class^="numbox"] {
+  display: block;
+  padding: 0px;
+  line-height: 21px;
+  height: auto;
+  background: transparent;
+  vertical-align: top;
+}
+@media (max-width: 840px) and (-webkit-min-device-pixel-ratio:0) and (min-resolution: .001dpcm) { /* Android only */
+  table.nb tr {
+    -moz-transform: translate(0,2px) !important;
+    -webkit-transform: translate(0,2px) !important;
+    background: #4d4337 ;
+    padding-top: 0px;
+    padding-bottom: 8px;
+  }
+}
+@media (max-width: 840px) and (-webkit-min-device-pixel-ratio:4) and (min-resolution: .001dpcm) { /* Android high pixel ratio only */
+  table.nb tr.sp span {
+    -moz-transform: translate(0, -3px);
+    -webkit-transform: translate(0, -3px);
+  }
+}
+
+.numbox_mini { min-width: 48px; border-radius: 7px; }
+.numbox { min-width : 118px; }
+.numbox_middle_mini { min-width: 100px; }
+.numbox_middle { min-width: 120px; }
+.numbox_middle_long { min-width: 140px; }
+.numbox_long { min-width: 178px; }
+.numbox_slong { min-width: 192px; height: 36px; line-height: 36px; }
+
+.comConsumptionBox {
+  text-align: left;
+  margin-top: 1em;
+  margin-left: 2em
+}
+.comConsumptionBox > div > div:first-child {
+  width:6em;
+  text-align:right
+}
+.comConsumptionBox > div > div {
+  display: inline-block;
+  white-space: nowrap;
+}
+.comConsumptionBox > div {
+  text-align: left;
+  margin:8px;
+}
+
+.comSellNumbox {
+  vertical-align:center;
+  line-height:1.5;
+  font-size: 20px;
+  text-align: left;
+}

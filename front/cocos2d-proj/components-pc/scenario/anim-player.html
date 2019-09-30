@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <link href="css/anim-player.css" type="text/css" rel="stylesheet" />
+  <script type="text/javascript" src="./src/KHReceiveMessage.js" defer></script>
+</head>
+<body>
+  <style>
+  </style>
+  <div id="main-content">
+    <div class="anim-player">
+      <div class="movie-player"></div>
+      <dl>
+        <dt class="speaker"></dt>
+        <dd class="words"></dd>
+      </dl>
+      <div id="shield"></div>
+      <input type="checkbox" name="toggle-words" id="toggle-words"><label for="toggle-words">セリフ枠表示ONOFF</label>
+      <input type="checkbox" name="toggle-zoom" id="toggle-zoom"><label for="toggle-zoom">拡大</label>
+      <input type="checkbox" name="toggle-sound" id="toggle-sound"><label for="toggle-sound">ミュート</label>
+      <input type="checkbox" name="toggle-auto" id="toggle-auto"><label for="toggle-auto">オート再生</label>
+      <button id="skip-btn"><label>skip</label></button>
+      <span id="next-words" class="on"><span>
+    </div>
+  </div>
+  <script>
+  if (/* Production = */true) {
+    console.log = console.warn = console.debug = console.info = function() {};
+  }
+  </script>
+  <script src="../../vendor/jquery/dist/jquery.min.js" defer></script>
+  <script src="../../components-pc/scenario/anim-player/build/main.js" defer></script>
+  <script>
+    window.onload = function() {
+      boombox.onBlur = function () {};
+      boombox.onPageHide = function() {};
+      boombox.onVisibilityChange = function() {};
+    }
+  </script>
+</body>
+</html>

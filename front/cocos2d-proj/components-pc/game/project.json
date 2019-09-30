@@ -1,0 +1,33 @@
+{
+    "project_type": "javascript",
+    "designWidth": 960,
+    "designHeight": 640,
+    "debugMode": 0,
+    "showFPS": false,
+    "frameRate": 30,
+    "id": "gameCanvas",
+    "renderMode": 2,
+    "engineDir": "../../frameworks/cocos2d-html5",
+    "modules": [
+        "cocos2d",
+        "cocostudio"
+    ],
+    "scenarioFrame" : "scenarioFrame",
+    "endTouchField" : "endTouchField",
+    "jsList": [
+        "../../vendor/sha1.js",
+        "../../vendor/q/q.js",
+        "../../vendor/lodash/dist/lodash.js",
+        "../../vendor/superagent/superagent.js",
+        "../../vendor/backbone/backbone.js",
+        "../../vendor/di-lite/di-lite.js",
+        "../../vendor/html2canvas/build/html2canvas.js",
+        "../../vendor/blowfish/index.js",
+        "../../vendor/socket.io-client/socket.io.js",
+        "../../vendor/js-cookie/src/js.cookie.js",
+        "../../vendor/jquery/dist/jquery.min.js",
+        "../../vendor/json5/lib/json5.js",
+        "../core/build/js/min.js",
+        "./build/js/min.js"
+    ]
+}

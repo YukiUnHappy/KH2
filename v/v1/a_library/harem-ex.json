@@ -1,6 +1,134 @@
 {
   "data": [
     {
+      "quest_id": 12,
+      "title": "最良のメイドになるために",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "12_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6084,
+            "name": "マネス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5117,
+            "name": "フリッグ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "マネス",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401200",
+            "chapter_id": "121_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401201",
+            "chapter_id": "122_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401202",
+            "chapter_id": "123_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 12,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "マネスとフリッグは、メイドとしての成長を\n求め、アモンに師事することを決意する。\nしかし、アモンの訓練はかなり厳しく――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 11,
+      "title": "正義の残響",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "11_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 7047,
+            "name": "[月の光明]カスピエル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5068,
+            "name": "[月下繚乱]アルテミス"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "[月の光明]カスピエル",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401100",
+            "chapter_id": "111_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401101",
+            "chapter_id": "112_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401102",
+            "chapter_id": "113_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 11,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ある遺跡の調査に訪れた、月出身の神姫達。\nしかし、一瞬の油断が命取りとなり、\nアルテミス達は苦しい戦いを強いられる。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
       "quest_id": 10,
       "title": "積年のわだかまりをこえて",
       "is_restricted": false,
@@ -651,5 +779,5 @@
       "quest_ap": 0
     }
   ],
-  "max_record_count": 10
+  "max_record_count": 12
 }

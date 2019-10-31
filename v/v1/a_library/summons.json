@@ -649,6 +649,12 @@
       "is_owned": true
     },
     {
+      "summon_id": 6077,
+      "rare": "ssrare",
+      "element_type": 0,
+      "is_owned": true
+    },
+    {
       "summon_id": 9051,
       "rare": "ssrare",
       "element_type": 0,
@@ -733,5 +739,5 @@
       "is_owned": true
     }
   ],
-  "max_record_count": 122
+  "max_record_count": 123
 }

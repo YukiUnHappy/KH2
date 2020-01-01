@@ -235,6 +235,12 @@
       "is_owned": true
     },
     {
+      "summon_id": 5027,
+      "rare": "ssrare",
+      "element_type": 4,
+      "is_owned": true
+    },
+    {
       "summon_id": 6001,
       "rare": "ssrare",
       "element_type": 4,
@@ -655,6 +661,24 @@
       "is_owned": true
     },
     {
+      "summon_id": 6078,
+      "rare": "ssrare",
+      "element_type": 5,
+      "is_owned": true
+    },
+    {
+      "summon_id": 6080,
+      "rare": "ssrare",
+      "element_type": 4,
+      "is_owned": true
+    },
+    {
+      "summon_id": 6081,
+      "rare": "ssrare",
+      "element_type": 1,
+      "is_owned": true
+    },
+    {
       "summon_id": 9051,
       "rare": "ssrare",
       "element_type": 0,
@@ -739,5 +763,5 @@
       "is_owned": true
     }
   ],
-  "max_record_count": 123
+  "max_record_count": 127
 }

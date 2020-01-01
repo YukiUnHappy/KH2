@@ -1,6 +1,134 @@
 {
   "data": [
     {
+      "quest_id": 14,
+      "title": "いざゆけ輝く明日のために",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "14_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5048,
+            "name": "タナトス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6168,
+            "name": "[紅霆の令嬢]ベレヌス"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "タナトス",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401400",
+            "chapter_id": "141_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401401",
+            "chapter_id": "142_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401402",
+            "chapter_id": "143_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 14,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "闇魔法の訓練に明け暮れるものの、まるで\n成果の上がらないベレヌス。約束を果たす\nため、新たな師に教えを乞うのだった。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 13,
+      "title": "師弟の絆はどこまでも",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "13_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5140,
+            "name": "アポロン"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6152,
+            "name": "レートー"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "アポロン",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401300",
+            "chapter_id": "131_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401301",
+            "chapter_id": "132_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401302",
+            "chapter_id": "133_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 13,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "師であるレートーに褒められたい一心で、\n街の困りごとを一手に引き受けるアポロン。\nしかし、そんな彼女を利用しようと――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
       "quest_id": 12,
       "title": "最良のメイドになるために",
       "is_restricted": false,
@@ -779,5 +907,5 @@
       "quest_ap": 0
     }
   ],
-  "max_record_count": 12
+  "max_record_count": 14
 }

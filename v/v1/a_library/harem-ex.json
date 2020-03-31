@@ -1,6 +1,134 @@
 {
   "data": [
     {
+      "quest_id": 16,
+      "title": "眠り姫の誘い",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "16_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6055,
+            "name": "ヒュプノス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 26,
+            "name": "ニケ"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "ヒュプノス",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401600",
+            "chapter_id": "161_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401601",
+            "chapter_id": "162_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401602",
+            "chapter_id": "163_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 16,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ニケの眠り癖に拍車がかかる中、\n魔物討伐をこなす一行。\nそんなニケを見守る影が一人……。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 15,
+      "title": "素敵な料理の作り方",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "15_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "summon",
+            "heroine_id": 6069,
+            "name": "リタン"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 38,
+            "name": "バアル"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "リタン",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401500",
+            "chapter_id": "151_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401501",
+            "chapter_id": "152_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401502",
+            "chapter_id": "153_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 15,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "食いしん坊のリタンは食材を無駄遣いする\nシェフのことがどうしても許せない。\n堪忍袋の緒が切れた彼女のとった行動は――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
       "quest_id": 14,
       "title": "いざゆけ輝く明日のために",
       "is_restricted": false,
@@ -907,5 +1035,5 @@
       "quest_ap": 0
     }
   ],
-  "max_record_count": 14
+  "max_record_count": 16
 }

@@ -1,6 +1,134 @@
 {
   "data": [
     {
+      "quest_id": 18,
+      "title": "あかちゃん大作戦！？",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "18_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 5150,
+            "name": "アンシャル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6165,
+            "name": "[雷衛断姫]キシャル"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "アンシャル",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401800",
+            "chapter_id": "181_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401801",
+            "chapter_id": "182_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401802",
+            "chapter_id": "183_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 18,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "キシャルとの関係に思い悩むアンシャル。\nそんな中、彼女の元にキシャルに異変が\n起きたとの報せが舞い込むのだった。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 17,
+      "title": "誰が為にイタズラを",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "17_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6183,
+            "name": "[可憐な妖光]オベロン"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5097,
+            "name": "ディアンケヒト"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "[可憐な妖光]オベロン",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401700",
+            "chapter_id": "171_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401701",
+            "chapter_id": "172_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401702",
+            "chapter_id": "173_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 17,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "遺跡の中で魔導書を見つけたオベロンは、\n早速、魔法を仲間に向けて放つ。その魔法は\n恐るべき騒動を巻き起こし――",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
       "quest_id": 16,
       "title": "眠り姫の誘い",
       "is_restricted": false,
@@ -1035,5 +1163,5 @@
       "quest_ap": 0
     }
   ],
-  "max_record_count": 16
+  "max_record_count": 18
 }

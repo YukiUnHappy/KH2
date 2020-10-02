@@ -241,6 +241,12 @@
       "is_owned": true
     },
     {
+      "summon_id": 5028,
+      "rare": "ssrare",
+      "element_type": 0,
+      "is_owned": true
+    },
+    {
       "summon_id": 5029,
       "rare": "ssrare",
       "element_type": 1,
@@ -250,6 +256,18 @@
       "summon_id": 5030,
       "rare": "ssrare",
       "element_type": 2,
+      "is_owned": true
+    },
+    {
+      "summon_id": 5031,
+      "rare": "ssrare",
+      "element_type": 3,
+      "is_owned": true
+    },
+    {
+      "summon_id": 5032,
+      "rare": "ssrare",
+      "element_type": 5,
       "is_owned": true
     },
     {
@@ -739,6 +757,30 @@
       "is_owned": true
     },
     {
+      "summon_id": 6090,
+      "rare": "ssrare",
+      "element_type": 4,
+      "is_owned": true
+    },
+    {
+      "summon_id": 6091,
+      "rare": "ssrare",
+      "element_type": 1,
+      "is_owned": true
+    },
+    {
+      "summon_id": 6092,
+      "rare": "ssrare",
+      "element_type": 2,
+      "is_owned": true
+    },
+    {
+      "summon_id": 6093,
+      "rare": "ssrare",
+      "element_type": 4,
+      "is_owned": true
+    },
+    {
       "summon_id": 9051,
       "rare": "ssrare",
       "element_type": 0,
@@ -823,5 +865,5 @@
       "is_owned": true
     }
   ],
-  "max_record_count": 137
+  "max_record_count": 144
 }

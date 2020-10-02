@@ -1,6 +1,144 @@
 {
   "data": [
     {
+      "quest_id": 20,
+      "title": "大人の女のオタノシミ？",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "20_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6080,
+            "name": "ペルクナス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 5160,
+            "name": "[御雷光の夢]ソル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 6145,
+            "name": "セベク"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "ペルクナス",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "402000",
+            "chapter_id": "201_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "402001",
+            "chapter_id": "202_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "402002",
+            "chapter_id": "203_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 20,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "ある日セベクが歩いていると、どこからか\n言い争う声を聞く。近寄るとなにやら\n険悪な雰囲気のソルとペルクナスがおり——",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
+      "quest_id": 19,
+      "title": "目指せ！理想のアイドル！",
+      "is_restricted": false,
+      "is_r18": false,
+      "harem_episode_info": {
+        "episode_id": "19_harem-ex",
+        "heroine_is_aroused": false,
+        "cleared_bonus_type": "none",
+        "is_story_of_encounter": false,
+        "heroines": [
+          {
+            "heroine_type": "character",
+            "heroine_id": 6139,
+            "name": "[水響の美声]ラミエル"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 7035,
+            "name": "[春風の歌]オルフェウス"
+          },
+          {
+            "heroine_type": "character",
+            "heroine_id": 7018,
+            "name": "ダゴン"
+          }
+        ],
+        "condition_to_unlock": {
+          "heroine_name": "[水響の美声]ラミエル",
+          "episode_title": "",
+          "level": 0
+        },
+        "chapters": [
+          {
+            "a_chapter_id": "401900",
+            "chapter_id": "191_harem-ex",
+            "title": "第1話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401901",
+            "chapter_id": "192_harem-ex",
+            "title": "第2話",
+            "is_cleared": true,
+            "is_opened": true
+          },
+          {
+            "a_chapter_id": "401902",
+            "chapter_id": "193_harem-ex",
+            "title": "第3話",
+            "is_cleared": true,
+            "is_opened": true
+          }
+        ]
+      },
+      "reward_info": {
+        "reward_type": "item",
+        "item_id": 1
+      },
+      "a_quest_id": 19,
+      "is_new": false,
+      "is_cleared": true,
+      "is_opened": true,
+      "has_area_boss": false,
+      "description": "自分のファンが暴れているとの急報を\n確かめるため現場に向かうラミエルたち。\nしかしその原因は思わぬものであり……。",
+      "type": "harem-ex",
+      "quest_ap": 0
+    },
+    {
       "quest_id": 18,
       "title": "あかちゃん大作戦！？",
       "is_restricted": false,
@@ -1163,5 +1301,5 @@
       "quest_ap": 0
     }
   ],
-  "max_record_count": 18
+  "max_record_count": 20
 }

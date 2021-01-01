@@ -278,5 +278,21 @@
   "5179": {
     "base_character_id": 5071,
     "aroused_character_id": 5179
+  },
+  "5053": {
+    "base_character_id": 5053,
+    "aroused_character_id": 5186
+  },
+  "5186": {
+    "base_character_id": 5053,
+    "aroused_character_id": 5186
+  },
+  "5058": {
+    "base_character_id": 5058,
+    "aroused_character_id": 5189
+  },
+  "5189": {
+    "base_character_id": 5058,
+    "aroused_character_id": 5189
   }
 }

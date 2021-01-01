@@ -544,7 +544,7 @@
       "rare": "ssrare",
       "element_type": 4,
       "is_owned": true,
-      "aroused_character_id": -1
+      "aroused_character_id": 5186
     },
     {
       "character_id": 5055,
@@ -572,7 +572,7 @@
       "rare": "ssrare",
       "element_type": 3,
       "is_owned": true,
-      "aroused_character_id": -1
+      "aroused_character_id": 5189
     },
     {
       "character_id": 5060,
@@ -1250,6 +1250,62 @@
       "character_id": 5183,
       "rare": "ssrare",
       "element_type": 5,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5184,
+      "rare": "ssrare",
+      "element_type": 2,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5185,
+      "rare": "ssrare",
+      "element_type": 4,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5187,
+      "rare": "ssrare",
+      "element_type": 1,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5188,
+      "rare": "ssrare",
+      "element_type": 3,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5190,
+      "rare": "ssrare",
+      "element_type": 5,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5191,
+      "rare": "ssrare",
+      "element_type": 0,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5192,
+      "rare": "ssrare",
+      "element_type": 5,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 5193,
+      "rare": "ssrare",
+      "element_type": 2,
       "is_owned": true,
       "aroused_character_id": -1
     },
@@ -2682,6 +2738,62 @@
       "aroused_character_id": -1
     },
     {
+      "character_id": 6205,
+      "rare": "srare",
+      "element_type": 2,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6206,
+      "rare": "srare",
+      "element_type": 1,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6207,
+      "rare": "srare",
+      "element_type": 4,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6208,
+      "rare": "srare",
+      "element_type": 1,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6209,
+      "rare": "srare",
+      "element_type": 4,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6210,
+      "rare": "srare",
+      "element_type": 3,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6211,
+      "rare": "srare",
+      "element_type": 5,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 6212,
+      "rare": "srare",
+      "element_type": 4,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
       "character_id": 7001,
       "rare": "rare",
       "element_type": 5,
@@ -3478,7 +3590,21 @@
       "element_type": 0,
       "is_owned": true,
       "aroused_character_id": -1
+    },
+    {
+      "character_id": 7115,
+      "rare": "rare",
+      "element_type": 2,
+      "is_owned": true,
+      "aroused_character_id": -1
+    },
+    {
+      "character_id": 7116,
+      "rare": "rare",
+      "element_type": 1,
+      "is_owned": true,
+      "aroused_character_id": -1
     }
   ],
-  "max_record_count": 497
+  "max_record_count": 515
 }
